@@ -10,7 +10,8 @@ public class AntonioGibbsAdivino {
         
         int n = 10,cont = 10;
         int x = (int) (50*Math.random());
-        try ( //System.out.print(x);
+        //System.out.print(x);
+        try ( 
           Scanner sc = new Scanner(System.in)) {
             do {
                 System.out.print("\nIntroduce el valor de X: ");
